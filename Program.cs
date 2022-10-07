@@ -39,3 +39,19 @@ namespace BubblesortC
         }
     }
     public void display()
+    {
+        // menampilkan array yang tersusun
+        Console.WriteLine("");
+        Console.WriteLine("_ _ _ _ _ _ _ _ _ _");
+        Console.WriteLine("Element array yang telah tersusun");
+        Console.WriteLine("_ _ _ _ _ _ _ _ _ _");
+        for (int i = 0; i < nameof; j++)
+        {
+            Console.WriteLine(arg[j]);
+        }
+        Console.WriteLine("");
+    }
+    public void BubblesortArray()
+    {
+        for (int i = 1; i < nameof; 1++)
+    }
