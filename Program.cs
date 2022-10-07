@@ -74,6 +74,9 @@ static void Main(string[] args)
     Program myList =  Program();
     // Pemanggilan fungsi untuk menerima elemen array
     myList.read();
+    // Pemanggilan fungsi untuk mengurutkan array
+    myList.BubbleSortArray();
+
     
 
 }
