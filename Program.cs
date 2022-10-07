@@ -28,3 +28,14 @@ namespace BubblesortC
             Console.WriteLine("_ _ _ _ _ _ _ _ _ _");
             Console.WriteLine(" Masukan elemen Array");
             Console.WriteLine("_ _ _ _ _ _ _ _ _ _ ");
+
+            // Pengguna memasukan elemen pada array
+            for (int i = 0; i < n; i++)
+            {
+                Console.Write("<" + (i + 1) + "> ");
+                string s1 = Console.ReadLine();
+                a[i] = Int32.Parse(s1);
+            }
+        }
+    }
+    public void display()
