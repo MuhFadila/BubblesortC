@@ -37,19 +37,19 @@ namespace BubblesortC
                 a[i] = Int32.Parse(s1);
             }
         }
-    public void display()
-    {
-        // menampilkan array yang tersusun
-        Console.WriteLine("");
-        Console.WriteLine("_ _ _ _ _ _ _ _ _ _");
-        Console.WriteLine("Element array yang telah tersusun");
-        Console.WriteLine("_ _ _ _ _ _ _ _ _ _");
-        for (int i = 0; i < n; i++)
+        public void display()
         {
-            Console.WriteLine(a[i]);
+            // menampilkan array yang tersusun
+            Console.WriteLine("");
+            Console.WriteLine("_ _ _ _ _ _ _ _ _ _");
+            Console.WriteLine("Element array yang telah tersusun");
+            Console.WriteLine("_ _ _ _ _ _ _ _ _ _");
+            for (int i = 0; i < n; i++)
+            {
+                Console.WriteLine(a[i]);
+            }
+            Console.WriteLine("");
         }
-        Console.WriteLine("");
-    }
         public void BubblesortArray()
         {
             for (int i = 1; i < n; i++) // For n - 1 passes
@@ -58,4 +58,13 @@ namespace BubblesortC
                 for (int j = 0; j < n - i; j++)
                 {
                     if (a[j] > a[j + 1]) // jika elemen tidak dalam urutan yang benar
-    
+                    }
+                // tukar elemen
+                int temp;
+                temp = a[j];
+                a[j] = a[j + 1];
+                a[j + 1] = temp;
+            }
+        }
+    }
+}
