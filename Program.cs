@@ -37,7 +37,6 @@ namespace BubblesortC
                 a[i] = Int32.Parse(s1);
             }
         }
-    }
     public void display()
     {
         // menampilkan array yang tersusun
@@ -45,13 +44,14 @@ namespace BubblesortC
         Console.WriteLine("_ _ _ _ _ _ _ _ _ _");
         Console.WriteLine("Element array yang telah tersusun");
         Console.WriteLine("_ _ _ _ _ _ _ _ _ _");
-        for (int i = 0; i < nameof; j++)
+        for (int i = 0; i < n; i++)
         {
-            Console.WriteLine(arg[j]);
+            Console.WriteLine(a[i]);
         }
         Console.WriteLine("");
     }
     public void BubblesortArray()
     {
-        for (int i = 1; i < nameof; 1++)
+        for (int i = 1; i < n; i++) // For n - 1 passes
+            { }
     }
