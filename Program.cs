@@ -7,12 +7,12 @@ namespace BubblesortC
         // Deklarasi array int dengan ukuran 20
         private int[] a = new int[20];
 
-        //Deklarasi variabel int untuk menyimpan banyaknya data pada array 
+        // Deklarasi variabel int untuk menyimpan banyaknya data pada array 
         private int n;
 
         // Fungsi/Method untuk menerima masukan
         public void read()
-        { 
+        {
             // Menerima angka untuk menentukan banyaknya data yang di simpan pada array
             while (true)
             {
@@ -23,3 +23,8 @@ namespace BubblesortC
                     break;
                 else
                     Console.WriteLine("\nArray dapat mempunyai maksimal20 elemen.\n");
+            }
+            Console.WriteLine("");
+            Console.WriteLine("_ _ _ _ _ _ _ _ _ _");
+            Console.WriteLine(" Masukan elemen Array");
+            Console.WriteLine("_ _ _ _ _ _ _ _ _ _ ");
