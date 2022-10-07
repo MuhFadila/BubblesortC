@@ -50,8 +50,12 @@ namespace BubblesortC
         }
         Console.WriteLine("");
     }
-    public void BubblesortArray()
-    {
-        for (int i = 1; i < n; i++) // For n - 1 passes
-            { }
-    }
+        public void BubblesortArray()
+        {
+            for (int i = 1; i < n; i++) // For n - 1 passes
+            {
+                // pada pass i, dibandingkan n - i elemen pertama dengan elemen selanjutnya
+                for (int j = 0; j < n - i; j++)
+                {
+                    if (a[j] > a[j + 1]) // jika elemen tidak dalam urutan yang benar
+    
