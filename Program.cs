@@ -71,6 +71,9 @@ namespace BubblesortC
 static void Main(string[] args)
 {
     // Creating the object of the Bubblesort class
-    Program mylist = new Program();
+    Program myList =  Program();
+    // Pemanggilan fungsi untuk menerima elemen array
+    myList.read();
+    
 
 }
