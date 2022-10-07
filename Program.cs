@@ -68,3 +68,9 @@ namespace BubblesortC
         }
     }
 }
+static void Main(string[] args)
+{
+    // Creating the object of the Bubblesort class
+    Program mylist = new Program();
+
+}
