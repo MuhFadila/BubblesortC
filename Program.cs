@@ -76,6 +76,8 @@ static void Main(string[] args)
     myList.read();
     // Pemanggilan fungsi untuk mengurutkan array
     myList.BubbleSortArray();
+    //Pemanggilan fungsi untuk menampilkan array yang tersusun
+    myList.display();
 
     
 
