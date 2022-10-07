@@ -12,8 +12,14 @@ namespace BubblesortC
 
         // Fungsi/Method untuk menerima masukan
         public void read()
-
-    
-        }
-    }
-}
+        { 
+            // Menerima angka untuk menentukan banyaknya data yang di simpan pada array
+            while (true)
+            {
+                Console.Write("Masukan banyaknya elemen pada array: ");
+                String s = Console.ReadLine();
+                n = Int32.Parse(s);
+                if (n <= 20)
+                    break;
+                else
+                    Console.WriteLine("\nArray dapat mempunyai maksimal20 elemen.\n");
